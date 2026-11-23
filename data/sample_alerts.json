@@ -1,0 +1,63 @@
+
+[
+    {
+        "timestamp": "2026-11-23T10:15:00Z",
+        "event_id": "EVT001",
+        "event_type": "failed_login",
+        "source_ip": "192.168.1.105",
+        "destination_ip": "192.168.1.10",
+        "username": "administrator",
+        "description": "Multiple failed login attempts detected",
+        "severity": "medium"
+    },
+    {
+        "timestamp": "2026-11-23T10:16:00Z",
+        "event_id": "EVT002",
+        "event_type": "failed_login",
+        "source_ip": "192.168.1.105",
+        "destination_ip": "192.168.1.10",
+        "username": "administrator",
+        "description": "Repeated authentication failure",
+        "severity": "medium"
+    },
+    {
+        "timestamp": "2026-11-23T10:17:00Z",
+        "event_id": "EVT003",
+        "event_type": "port_scan",
+        "source_ip": "192.168.1.105",
+        "destination_ip": "192.168.1.10",
+        "username": "unknown",
+        "description": "Multiple ports scanned on target system",
+        "severity": "high"
+    },
+    {
+        "timestamp": "2026-11-23T10:20:00Z",
+        "event_id": "EVT004",
+        "event_type": "suspicious_process",
+        "source_ip": "192.168.1.105",
+        "destination_ip": "192.168.1.10",
+        "username": "administrator",
+        "description": "Suspicious command execution detected",
+        "severity": "high"
+    },
+    {
+        "timestamp": "2026-11-23T10:25:00Z",
+        "event_id": "EVT005",
+        "event_type": "successful_login",
+        "source_ip": "192.168.1.105",
+        "destination_ip": "192.168.1.10",
+        "username": "administrator",
+        "description": "Successful login following multiple failed attempts",
+        "severity": "critical"
+    },
+    {
+        "timestamp": "2026-11-23T10:30:00Z",
+        "event_id": "EVT006",
+        "event_type": "normal_login",
+        "source_ip": "192.168.1.20",
+        "destination_ip": "192.168.1.10",
+        "username": "user01",
+        "description": "Normal user authentication",
+        "severity": "low"
+    }
+]
